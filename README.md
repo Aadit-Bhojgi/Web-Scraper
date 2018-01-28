@@ -24,7 +24,7 @@ BeautifulSoup, requests, wordpress-xmlrpc 2.3
 
 ## Additional Features
 To Automate the **Web-Scraper** I have made a `batch` file which runs `Web-Scraper.py` script or `Web-Scraper.exe` (can be made by using Pyinstaller).
-####Creating `.exe` application for Automation
+#### Creating `.exe` application for Automation
 Open command line and type:
 `pip install pyinstaller`
 `pyinstaller Web-Scraper.py`
