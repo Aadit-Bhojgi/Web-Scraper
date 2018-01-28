@@ -1,12 +1,22 @@
 # Web-Scraper
 ![Web-Scraper](Images/Web-Scraper.png)
 
+# Requirements
+### Python modules
+#### BeautifulSoup
+`pip install beautifulsoup4`
+#### requests
+`pip install requests`
+#### wordpress-xmlrpc 2.3
+`pip install python-wordpress-xmlrpc 2.3`
+
 # Overview
-* It is a demonstration of using modules like **BeautifulSoup** and **Requests** which help in Data Scraping.
-* It is a **Web-Scraper** with real time monitoring.
-* You can just scrape the  content of any desired page into a `.txt` or `.cvs` file.
+* It is a demonstration of using modules like **BeautifulSoup** and **Requests** which helps in Data Scraping.
+* You can just scrape the  content of any desired page into a `.txt` or `.cvs` file on your system.
+* It has **Real Time monitoring** that means it will keep checking for any new content that needs to scraped and posted on the website.
+* The Project also uses **wordpress-xmlrpc 2.3**. It is a Python library to interface with a WordPress blog's XML-RPC API). <a href="https://python-wordpress-xmlrpc.readthedocs.io/en/latest/">This</a> is the Documentation.
+* 
 
 # About The Project
->This Project is part of my Internship. You can see the Scraped Data from Government owned Website <a href="http://judis.nic.in/">judis.nic.in</a> on the Website of the Employer <a href="https://legalwiki.in/">LegalWiki.in</a>
+>This Project was part of my Internship. You can see the Scraped Data from Government owned Website <a href="http://judis.nic.in/">judis.nic.in</a> on the Website of the Employer <a href="https://legalwiki.in/">LegalWiki.in</a>
 
-# Automation
