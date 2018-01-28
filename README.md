@@ -27,8 +27,8 @@ To Automate the **Web-Scraper** I have made a `batch` file which runs `Web-Scrap
 #### Creating `.exe` application for Automation
 Open command line and type:<br>
 ```
-pip install pyinstaller
-pyinstaller Web-Scraper.py
+>pip install pyinstaller
+>pyinstaller Web-Scraper.py
 ```
 Then set task for the created `batch` file using [Task Scheduler](https://support.microsoft.com/en-us/help/814596/how-to-use-schtasks-exe-to-schedule-tasks-in-windows-server-2003) (for Windows) or [Cron Job](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job) (for Linux).<br>
 **Web-Scraper** will run on the desired time and day and will scrape the new data on the website.
