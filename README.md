@@ -1,5 +1,5 @@
 # Web-Scraper
-<img src="Images/Web-Scraper.png" alt="Web-Scraper" align="center">
+![Web-Scraper](Images/Web-Scraper.png?style=centerme)
 
 ## Requirements
 ### Python modules: 
