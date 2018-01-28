@@ -1,5 +1,5 @@
 # Web-Scraper
-![Web-Scraper](Images/Web-Scraper.png/style=centerme)
+![Web-Scraper](Images/Web-Scraper.png/?style=centerme)
 
 ## Requirements
 ### Python modules: 
