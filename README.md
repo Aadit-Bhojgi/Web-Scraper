@@ -7,6 +7,6 @@
 * You can just scrape the  content of any desired page into a `.txt` or `.cvs` file.
 
 # About The Project
->This Project is part of my Internship. You can see the Scraped Data from Government owned Website<a href="http://judis.nic.in/">judis.nic.in</a> on the Website of the Employer <a href="https://legalwiki.in/">LegalWiki.in</a>
+>This Project is part of my Internship. You can see the Scraped Data from Government owned Website <a href="http://judis.nic.in/">judis.nic.in</a> on the Website of the Employer <a href="https://legalwiki.in/">LegalWiki.in</a>
 
 # Automation
