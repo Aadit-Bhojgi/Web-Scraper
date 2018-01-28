@@ -84,7 +84,6 @@ while True:
         with open(filename_2, 'w+') as writer:
             writer.writelines(str(count))
         writer.close()
-print path
 os.system("notepad.exe {}\Log.txt".format(path))
 os.system("notepad.exe {}\Value_of_i(URL index).txt".format(path))
 os.system("notepad.exe {}\Value_of_Count(Count of Post).txt".format(path))
