@@ -23,7 +23,15 @@ BeautifulSoup, requests, wordpress-xmlrpc 2.3
 * The script `Web-Scraper.py` scrapes the content of the new link available(on the government owned website) directly into a New Post on the website. It reads the suffix of the link(from which data needs to be scraped) and suffix of the heading for every post for the website from two text file.
 
 ## Additional Features
-To Automate the **Web-Scraper** 
+To Automate the **Web-Scraper** I have made a `batch` file which runs `Web-Scraper.py` script or `Web-Scraper.exe` (can be made by using Pyinstaller).
+####Creating `.exe` application for Automation
+Open command line and type:
+`pip install pyinstaller`
+`pyinstaller Web-Scraper.py`
+Then set task for the created `batch` file using [Task Scheduler](https://support.microsoft.com/en-us/help/814596/how-to-use-schtasks-exe-to-schedule-tasks-in-windows-server-2003) (for Windows) or [Cron Job](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job) (for Linux).<br>
+Web-Scraper will run on the entered time every day and will scrape the new data to the website.
+
+
 ## About The Project
 This Project was part of my Internship. You can see the Scraped Data from Government owned website <a href="http://judis.nic.in/">judis.nic.in</a> on the website of the Employer <a href="https://legalwiki.in/">LegalWiki.in</a>.
 
