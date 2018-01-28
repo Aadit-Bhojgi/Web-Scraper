@@ -14,7 +14,7 @@
 * It is a demonstration of using modules like **BeautifulSoup** and **Requests** which helps in Data Scraping.
 * You can just scrape the  content of any desired page into a `.txt` or `.cvs` file on your system.
 * It has **Real Time monitoring** that means it will keep checking for any new content that needs to scraped and posted on the website.
-* The Project also uses **wordpress-xmlrpc 2.3**. It is a Python library to interface with a WordPress blog's XML-RPC API). <a href="https://python-wordpress-xmlrpc.readthedocs.io/en/latest/">This</a> is the Documentation.
+* The Project also uses **wordpress-xmlrpc 2.3**. It is a Python library to interface with a WordPress blog's XML-RPC API.<br><a href="https://python-wordpress-xmlrpc.readthedocs.io/en/latest/">Here</a> is the Documentation.
 * 
 
 # About The Project
