@@ -2,7 +2,7 @@
 ![Web-Scraper](Images/Web-Scraper.png)
 
 ## Requirements
-#### Python modules
+### Python modules:
 ##### BeautifulSoup
 `pip install beautifulsoup4`
 ##### requests
