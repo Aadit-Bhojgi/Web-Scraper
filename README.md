@@ -1,5 +1,5 @@
 # Web-Scraper
-<img src="mages/Web-Scraper.png" alt="Web-Scraper" align="center">
+<img src="Images/Web-Scraper.png" alt="Web-Scraper" align="center">
 
 ## Requirements
 ### Python modules: 
