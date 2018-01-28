@@ -16,15 +16,21 @@ path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
 # To Fetch the last updated values of i and count from input text files.
 # i (Unique URL index for every Link we have to scrape content from)
-my_i = open('{}\Value_of_i(URL index).txt'.format(path), 'r+')
-data_i = my_i.read()
-i = int(data_i)
-my_i.close()
+try:
+    my_i = open('{}\Value_of_i(URL index).txt'.format(path), 'r+')
+    data_i = my_i.read()
+    i = int(data_i)
+    my_i.close()
+except IOError:
+    i = 0
 # count (Count of Post that is to be posted on our WebSite)
-my_count = open('{}\Value_of_Count(Count of Post).txt'.format(path), 'r+')
-data_count = my_count.read()
-count = int(data_count)
-my_count.close()
+try:
+    my_count = open('{}\Value_of_Count(Count of Post).txt'.format(path), 'r+')
+    data_count = my_count.read()
+    count = int(data_count)
+    my_count.close()
+except IOError:
+    count = 0
 
 while True:
     url = 'http://judis.nic.in/supremecourt/imgst.aspx?filename={}'.format(i)
