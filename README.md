@@ -1,5 +1,5 @@
 # Web-Scraper
-![Web-Scraper Image](Images/Web-Scraper.png)
+<img src="Images/Web-Scraper.png" alt="Image") style="background-color: black;">
 * It is a simple demonstration of using modules like BeautifulSoup and Requests which help in data scraping.
 * It is a web scraper with real time monitoring.
 * It is a small implementation of Web Scraping using BeautifulSoup Module.
