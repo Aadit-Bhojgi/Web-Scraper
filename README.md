@@ -2,12 +2,12 @@
 ![Web-Scraper](Images/Web-Scraper.png)
 
 ## Requirements
-### Python modules
-#### BeautifulSoup
+#### Python modules
+##### BeautifulSoup
 `pip install beautifulsoup4`
-#### requests
+##### requests
 `pip install requests`
-#### wordpress-xmlrpc 2.3
+##### wordpress-xmlrpc 2.3
 `pip install python-wordpress-xmlrpc 2.3`
 
 ## Overview
