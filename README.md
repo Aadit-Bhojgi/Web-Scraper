@@ -20,7 +20,7 @@
 * The script `Web-Scraper.py` scrapes the content of the new link available(on the government owned Website) directly into a New Post on the Website.
 
 # About The Project
->This Project was part of my Internship. You can see the Scraped Data from Government owned Website <a href="http://judis.nic.in/">judis.nic.in</a> on the Website of the Employer <a href="https://legalwiki.in/">LegalWiki.in</a>.
+This Project was part of my Internship. You can see the Scraped Data from Government owned Website <a href="http://judis.nic.in/">judis.nic.in</a> on the Website of the Employer <a href="https://legalwiki.in/">LegalWiki.in</a>.
 
 #### NOTE
 >The source from where the data is scraped is unavailable right now maybe because it has been shifted to a new address. [This](http://judis.nic.in/supremecourt/imgst.aspx?filename=1) is one of the Links.
