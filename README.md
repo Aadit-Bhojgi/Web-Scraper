@@ -31,7 +31,7 @@ pip install pyinstaller
 pyinstaller Web-Scraper.py
 ```
 Then set task for the created `batch` file using [Task Scheduler](https://support.microsoft.com/en-us/help/814596/how-to-use-schtasks-exe-to-schedule-tasks-in-windows-server-2003) (for Windows) or [Cron Job](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job) (for Linux).<br>
-Web-Scraper will run on the entered time every day and will scrape the new data to the website.
+**Web-Scraper** will run on the desired time and day and will scrape the new data to the website.
 
 
 ## About The Project
